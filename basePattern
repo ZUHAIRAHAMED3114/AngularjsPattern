@@ -1,0 +1,16 @@
+Watcher:-> observer Desing Pattern
+Rendering:->Composite Desing Pattern
+ Composite Component Contain 
+ this four Component
+  1) Component -> Commmon Interface
+  2) Composite -> Iam a Component with Children
+  3) Leaf:     -> Iam a Component without Children
+  4) Client:   -> I manipulate objects in the Composition
+
+
+
+Component:-> It is a Common Interface
+Leaf:-> it is inherit from Component
+Composite:-> inherit From Component + Compose Collection Component 
+
+Client Can Manipulate without Knowing the Leaf or Composite to do Operation...?
